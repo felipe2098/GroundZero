@@ -6,6 +6,12 @@
   right: 0;
   top: 50%;
   transform: translateY(-50%);
+  
+}
+
+#ctm{
+  background-color: rgb(182,115,255);
+  
 }
 
 #container strong {
@@ -17,11 +23,20 @@
   font-size: 16px;
   line-height: 22px;
 
-  color: #8c8c8c;
-
   margin: 0;
 }
 
 #container a {
   text-decoration: none;
+}
+
+
+ion-title{
+	font-size: 1.5em;
+	text-transform: uppercase;
+	font-weight: 750;
+	letter-spacing: 2px;
+    background: linear-gradient(90deg, rgba(214,102,9,1) 4%, rgba(255,190,0,1) 47%, rgba(255,246,0,1) 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }

@@ -2,11 +2,11 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
 
 @Component({
-  selector: 'app-login',
-  templateUrl: './login.page.html',
-  styleUrls: ['./login.page.scss'],
+  selector: 'app-receptor',
+  templateUrl: './receptor.page.html',
+  styleUrls: ['./receptor.page.scss'],
 })
-export class LoginPage implements OnInit {
+export class ReceptorPage implements OnInit {
   mensaje: any;
 
   constructor(private route: ActivatedRoute,private router:Router) {
